@@ -29,9 +29,13 @@
 
 /*nav*/
 .navbar {
-  height: $header-height;
+  height: 30px;
   white-space: nowrap;
+  display: flex;
+  list-style: none;
+  align-items: center;
   li {
+    height: 60px;
     margin: $header-nav-margin;
     padding: $header-nav-padding;
     font-size: $font-size-header;
@@ -138,6 +142,6 @@
 }
 
 .active {
-  color: $theme-color !important;
-  border-bottom: 5px solid $theme-color !important;
+  color: $color-black !important;
+  border-bottom: 4px solid $color-black !important;
 }
