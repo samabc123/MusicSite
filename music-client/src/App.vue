@@ -1,10 +1,17 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <router-view class="music-content"/>
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  components:{
+
+  }
+};
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import './assets/css/app.scss';
 </style>

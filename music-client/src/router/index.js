@@ -1,16 +1,16 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 
-import Home from '@/pages/Home'
+import TheHome from '@/pages/TheHome'
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
-export default new Router({
+export default new VueRouter({
     routes: [
         {
             path: '/',
-            name: 'home',
-            component: Home
+            name: 'TheHome',
+            component: TheHome
         }
     ]
 })
