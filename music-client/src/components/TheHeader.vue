@@ -11,6 +11,8 @@
       @click="goPage(item.path, item.name)">
         {{ item.name }}
       </li>
+      <li></li>
+      <li></li>
     </ul>
   </div>
 </template>
