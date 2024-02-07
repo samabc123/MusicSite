@@ -2,18 +2,20 @@
 
 .home {
   margin-top: $header-height - 10px;
+
   .section {
     width: 100%;
     margin-top: 20px;
     padding: $content-padding;
     background-color: $color-white;
     box-sizing: border-box;
+
     .section-title {
-      height: 60px;
+      height: 2 * $my-nav-height;
       line-height: 60px;
       padding-top: 10px;
-      font-size: 28px;
-      font-weight: 500;
+      font-size: $font-size-title;
+      font-weight: $font-weight;
       text-align: center;
       color: $color-black;
       box-sizing: border-box;

@@ -24,18 +24,22 @@
   .icon {
     @include icon(($header-height / 3) * 2, $color-black);
     vertical-align: middle;
+    margin-right: $my-margin;
   }
+  .name{
+      padding-top: $my-margin;
+    }
 }
 
 /*nav*/
 .navbar {
-  height: 30px;
+  height: $my-nav-height;
   white-space: nowrap;
   display: flex;
   list-style: none;
   align-items: center;
   li {
-    height: 60px;
+    height: 2 * $my-nav-height;
     margin: $header-nav-margin;
     padding: $header-nav-padding;
     font-size: $font-size-header;
