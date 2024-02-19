@@ -24,7 +24,7 @@
 import { mixin } from "../mixins";
 export default {
   mixins: [mixin],
-  props: ["contentList"],
+  props: ['contentList'],
 };
 </script>
 

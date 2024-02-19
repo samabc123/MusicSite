@@ -1,6 +1,6 @@
 const config = {
     state: {
-        HOST: 'http://127.0.0.1:8888', // 后端访问地址
+        HOST: 'http://localhost:8080', // 后端访问地址
         activeName: ''                 // 当前选中的菜单
     },
     getters: {
